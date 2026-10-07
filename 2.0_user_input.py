@@ -29,7 +29,7 @@ DELIVERABLE
 # 1. In:user name age
 # 2. Process:Concatenate two information that was taken from the user
 # 3. Out:Concatenated string output
-# 4. My two fields, and what I would do with them:
+# 4. My two fields, and what I would do with them:Present my name and age
 
 
 # Your code below

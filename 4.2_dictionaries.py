@@ -23,10 +23,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My object, my five fields, and why those:
+# 1. In: User's name age and occupation
+# 2. Process: Process the user's inputed information
+# 3. Out: Display the informations
+# 4. My object, my five fields, and why those: It identifies me as a person, the importanrt identification informations related to my person
 
 
 # Your code below

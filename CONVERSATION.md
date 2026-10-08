@@ -79,3 +79,27 @@ Which one do you need to use in your campaign audit?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-08 20:36, in .
+
+**Me:** what can a dictionary be used for in this case
+
+**Tutor:**
+
+A dictionary stores key–value pairs, letting you look up a value by its key in constant time.
+
+```python
+# TODO: replace alpha, beta, gamma with your real column names
+columns = {
+    "cost": 1250,    # total cost in euros
+    "clicks": 250,   # number of clicks
+    "revenue": 4000  # total revenue in euros
+}
+
+# TODO: compute CTR (clicks / impressions) and store it under the key "ctr"
+# TODO: compute CPA (cost / clicks) and store it under the key "cpa"
+# TODO: compute ROAS (revenue / cost) and store it under the key "roas"
+```
+
+Which built-in function gives you the number of items in the dictionary?

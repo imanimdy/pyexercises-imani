@@ -30,3 +30,29 @@ DELIVERABLE
 
 
 # Your code below
+
+#Classwork
+
+name = "Mudiay"
+age = 21
+city = "Paris"
+
+
+person = { "name":"Mudiay",
+           "age": 21, 
+           "city": "Paris" }
+
+# printing the dictionary
+print("The dictionary is :", person)
+
+# adding a value inside the dictionary
+person["occupation"] = "Student"
+
+# the dictionary after adding the value or item
+print("The dictionary after adding the occupation:", person)
+
+# removing the city from the dictionary
+city = person.pop("city")
+
+print("The dictionary after removing the city:", person)
+print("The city removed is", city)

@@ -37,17 +37,21 @@ DELIVERABLE
 # Your code below
 
 sentence = input("enter a sentence:")
+#The input is going to ask me to enter a sentence
 
 result1 = sentence.upper()
 print("uppercase:", result1)
+#Test try first
 
 result2 = sentence.lower()
 result3 = sentence.title()
 result4 = sentence.replace("","_")
+#The rest of the text transformations
 
 print("uppercase:", result1)
 print("lowercase:", result2)
 print("title case:", result3)
 print("spaces replaced:", result4)
+#Every transformation to be printed
 
 #Everything came out as expected 

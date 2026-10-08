@@ -26,3 +26,47 @@ What is the argument you must pass to the `print()` function?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-08 12:24, in .
+
+**Me:** how to concatenate two informations
+
+**Tutor:**
+
+String concatenation joins two text pieces into one.
+
+```python
+# TODO: complete the function
+def join_info(part1, part2):
+    return part1 + part2
+```
+
+What is the operator used to join the two strings?
+
+---
+## 2026-10-08 13:03, in .
+
+**Me:** what are the four different ways a text can be written on python
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-08 13:05, in .
+
+**Me:** what are the different text transformations
+
+**Tutor:**
+
+Text transformations in Python are operations that change the format or content of strings.
+Common ones include:
+
+- Changing case: `.lower()`, `.upper()`, `.title()`, `.capitalize()`
+- Removing whitespace: `.strip()`, `.lstrip()`, `.rstrip()`
+- Replacing substrings: `.replace(old, new)`
+- Splitting into a list: `.split(sep)`
+- Joining a list into a string: `sep.join(list)`
+
+Which one do you need to use in your campaign audit?

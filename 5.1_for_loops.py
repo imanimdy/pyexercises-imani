@@ -24,10 +24,23 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
+# 1. In: List of numbers from exercise 4.0
+# 2. Process: Select the third item in the list and use a for loop to go through each number.
+# 3. Out: Display the third item and print each number with the message "My favorite number is".
 # 4. What I compute for each item, and why it is worth showing:
+#My list is about numbers from 1 to 10.
+# I used the code to find the third item, which is 1, and display each number individually.
+# This is interesting because it shows how Python can access specific items and go through a list.
 
 
 # Your code below
+
+#List taken from 4.0
+list_of_numbers = [10, 9, 1, 7, 8, 6, 2, 3, 4, 5]
+
+print("The third item in the list", list_of_numbers[3])
+
+for number in list_of_numbers:
+    print("My favorite number is", + number)
+
+print("Total:", sum(list_of_numbers))

@@ -24,10 +24,35 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What happens when the second number is zero, and why:
+# 1. In: Numbers input by user and calculatd with the four operations
+# 2. Process:Program calculates with the four operations
+# 3. Out:Result from the four operations 
+# 4. What happens when the second number is zero, and why: Program displays a message instead of dividing, because division by zero causes an error.
 
 
 # Your code below
+first = float(input("enter the first number:"))
+second = float(input("enter the second number:"))
+
+# Inputting of numbers by user
+
+print ("the sum of these two numbers is:", first + second)
+#Test try. Adding 7 and 2 
+print (first - second)
+print (first * second)
+
+if second != 0:
+    division = first / second
+    print("The division of two numbers is:", division)
+else:
+    print("The number 2 that you have entered is zero")
+
+print (first / second)
+# Every arithmetic function worked 
+
+print ("Result will most likely be 3 when second number is // by 2:", first // second)
+# ChatGPT told me that // and / are two different division forms
+
+#When second number is 0. There is a division error
+
+

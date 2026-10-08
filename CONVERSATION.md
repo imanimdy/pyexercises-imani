@@ -70,3 +70,12 @@ Common ones include:
 - Joining a list into a string: `sep.join(list)`
 
 Which one do you need to use in your campaign audit?
+
+---
+## 2026-10-08 13:51, in .
+
+**Me:** how can i divide a number greater than 0 by 0
+
+**Tutor:**
+
+Refused, off topic.

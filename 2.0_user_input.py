@@ -40,3 +40,6 @@ print("the user's name is:", name)
 print("the user's age is:", age)
 
 print("the user name is," + name + " and the user's age is", age)
+name = ("Imani")
+result = name.upper()
+print("uppercase:", result)

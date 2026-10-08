@@ -26,10 +26,43 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What my list is about, and what I computed from it:
+# 1. In: a list of 10 numbers
+# 2. Process: display that list in different orders that the user will ask
+# 3. Out: Full list in accorandace to the user's input
+# 4. What my list is about, and what I computed from it: 
+# The list is about numbers from 1 to 10 in a random order.
+# I used the code to sort the numbers and remove the largest number, which is 10. 
+# This is interesting because it shows how a list can be organized and changed using Python.
 
 
 # Your code below
+
+number_1 = 2
+number_2 = 3
+number_3 = 4
+number_4 = 5
+
+print(number_1)
+print(number_2)
+print(number_3)
+print(number_4)
+
+list_of_numbers = [10, 9, 1, 7, 8, 6, 2, 3, 4, 5]
+print("Listing all the numbers in the list")
+print(list_of_numbers)
+print("Listing the third item in the list")
+print(list_of_numbers[2])
+
+# sorting the list 
+print("The list of numbers after sorted ")
+list_of_numbers.sort()
+print(list_of_numbers)
+
+# removing the last item from the list
+list_of_numbers.pop()
+
+# list of numbers after removing the last 
+print("The list of numbers of numbers after removing the last item from the list")
+print(list_of_numbers)
+
+#This was done in class

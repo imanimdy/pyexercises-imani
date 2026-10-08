@@ -28,10 +28,37 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My stop condition, my attempt limit, my summary:
+# 1. In: The user enters "yes" or "no" to answer a question.
+# 2. Process: The program keeps asking the question until the user gives a valid answer or reaches 10 attempts.
+# 3. Out: The program displays the user's answer and the total number of attempts.
+# 4. My stop condition, my attempt limit, my summary: My stop condition is when the user enters "yes" or "no". The maximum number of attempts is 10.
+# My summary shows the final answer which is either yes or no
 
 
 # Your code below
+
+i = 0
+while i < 10:
+    print("This is attempt number:", i + 1)
+    i = i + 1
+
+
+print("This is the end of the loop. The maximum number of attempts has been reached.")
+
+# Your code below
+while True:
+   user_input = input("Do you want to continue? (yes/no): ").strip().lower()
+    
+   if user_input == "yes":
+        print("You chose to continue.")
+        break
+   elif user_input == "no":
+        print("You chose to stop.")
+        break
+   else:
+        print("Invalid input. Please enter 'yes' or 'no'.")
+
+print("This is the end of the loop.")
+print("Total attempts:", i)
+
+#This is the most confusing coding of the five exercises 
